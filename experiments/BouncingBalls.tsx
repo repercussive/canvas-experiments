@@ -9,7 +9,7 @@ class Circle {
   private radius
   private color
   private dx = randomInRange(3, 10) * (Math.random() > 0.5 ? 1 : -1)
-  private dy = randomInRange(3, 10)
+  private dy = randomInRange(3, 10) * (Math.random() > 0.5 ? 1 : -1)
   private ctx
   private canvas
   private bounds = { x: { lower: 0, upper: 0 }, y: { lower: 0, upper: 0 } }
@@ -58,7 +58,7 @@ class Circle {
 }
 
 
-const CanvasA = () => {
+const BouncingBalls = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null!)
 
   useLayoutEffect(() => {
@@ -104,4 +104,4 @@ const CanvasA = () => {
   )
 }
 
-export default CanvasA
+export default BouncingBalls
