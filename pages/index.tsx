@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CanvasA from '../experiments/CanvasA'
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Canvas Experiments!</h1>
-      </main>      
+        <CanvasA />
+      </main>
     </div>
   )
 }
