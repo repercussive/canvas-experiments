@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CanvasA from '../experiments/CanvasA'
+import InteractiveBalls from '@/experiments/InteractiveBalls'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <CanvasA />
+        <InteractiveBalls />
       </main>
     </div>
   )
