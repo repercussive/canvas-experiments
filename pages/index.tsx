@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CollidingParticles from '@/experiments/CollidingParticles'
+import CircularMotion from '@/experiments/CircularMotion'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <CollidingParticles />
+        <CircularMotion />
       </main>
     </div>
   )
