@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CircularMotion from '@/experiments/CircularMotion'
+import SineWaves from '@/experiments/SineWaves'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <CircularMotion />
+        <SineWaves />
       </main>
     </div>
   )
