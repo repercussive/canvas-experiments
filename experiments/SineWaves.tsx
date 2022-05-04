@@ -44,7 +44,7 @@ const SineWaves = () => {
           hsla(${wave.hue - i / wave.trail * 100}, 
           80%, 
           60%, 
-          ${Math.abs(Math.sin(wave.xOffset - i / wave.trail))})`
+          ${Math.abs(Math.sin(wave.xOffset - i / wave.trail * 2))})`
         ctx.stroke()
       }
 
